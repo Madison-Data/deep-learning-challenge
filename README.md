@@ -9,26 +9,26 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 ## Results
 ### Data Processing
-    * What variable(s) are the target(s) for your model?
-      The target for the model is the indicator for a successful applicant: "IS_SUCCESSFUL" with the values 1 and 0
-       The features included:
-         * **APPLICATION_TYPE**—Alphabet Soup application type
-        * **AFFILIATION**—Affiliated sector of industry
-        * **CLASSIFICATION**—Government organization classification
-        * **USE_CASE**—Use case for funding
-        * **ORGANIZATION**—Organization type
-        * **STATUS**—Active status
-        * **INCOME_AMT**—Income classification
-        * **SPECIAL_CONSIDERATIONS**—Special consideration for application
-        * **ASK_AMT**—Funding amount requested
-        * **IS_SUCCESSFUL**—Was the money used effectively?
-      
-    * What variable(s) should be removed from the input data because they are neither targets nor features?
-        * Identification columns "EIN" and "NAME" were remove##
+ * What variable(s) are the target(s) for your model?
+   The target for the model is the indicator for a successful applicant: "IS_SUCCESSFUL" with the values 1 and 0
+    The features included:
+      * **APPLICATION_TYPE**—Alphabet Soup application type
+     * **AFFILIATION**—Affiliated sector of industry
+     * **CLASSIFICATION**—Government organization classification
+     * **USE_CASE**—Use case for funding
+     * **ORGANIZATION**—Organization type
+     * **STATUS**—Active status
+     * **INCOME_AMT**—Income classification
+     * **SPECIAL_CONSIDERATIONS**—Special consideration for application
+     * **ASK_AMT**—Funding amount requested
+     * **IS_SUCCESSFUL**—Was the money used effectively?
+
+ * What variable(s) should be removed from the input data because they are neither targets nor features?
+     * Identification columns "EIN" and "NAME" were remove##
 
 ## Results
 ### Compiling, Training, and Evaluating the Model
-    * This model used four hidden layers with 100, 30, 10, and 3 nodes
-    * Initially, the model did not yeild the desired 75% accuracy threshold. In the initial run of the model, there was one hidden layer, with 100 nodes, that yeilded a 49% accuracy. The activation of the model was "relu" in the hidden layer and "sigmoid" in the output. However, by adding additional hidden layers and incorporating additional optimizers softmax and tanh, accuracy was increased 72.93%. 
-    Despite these efforts, the final accuracy did not meet the threshold. 
+ * This model used four hidden layers with 100, 30, 10, and 3 nodes
+ * Initially, the model did not yeild the desired 75% accuracy threshold. In the initial run of the model, there was one hidden layer, with 100 nodes, that yeilded a 49% accuracy. The activation of the model was "relu" in the hidden layer and "sigmoid" in the output. However, by adding additional hidden layers and incorporating additional optimizers softmax and tanh, accuracy was increased 72.93%. 
+ Despite these efforts, the final accuracy did not meet the threshold. 
     
